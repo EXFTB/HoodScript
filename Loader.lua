@@ -1,4 +1,4 @@
-local LoaderTitle = "kitten legit (getting removed soon)"
+local LoaderTitle = "EXFTB legit (getting removed soon)"
 
     local TweenService = game:GetService("TweenService")
 
@@ -170,14 +170,14 @@ local LoaderTitle = "kitten legit (getting removed soon)"
             LoadedPressed = true
             Loader:Destroy()
             wait(2)
-            if isfile("kittennotif.me") then
-                if readfile("kittennotif.me") ~= "_disabled" then
+            if isfile("EXFTBnotif.me") then
+                if readfile("EXFTBnotif.me") ~= "_disabled" then
                     local StarterGui = game:GetService("StarterGui") -- not sure why you used CoreGui
                     local bindable = Instance.new("BindableFunction")
 
                     function bindable.OnInvoke(response)
                         if response == "Yes" then
-                            writefile("kittennotif.me", "_disabled")
+                            writefile("EXFTBnotif.me", "_disabled")
                             StarterGui:SetCore(
                                 "SendNotification",
                                 {
@@ -207,7 +207,7 @@ local LoaderTitle = "kitten legit (getting removed soon)"
 
                 function bindable.OnInvoke(response)
                     if response == "Yes" then
-                        writefile("kittennotif.me", "_disabled")
+                        writefile("EXFTBnotif.me", "_disabled")
                         StarterGui:SetCore(
                             "SendNotification",
                             {
@@ -265,14 +265,14 @@ local LoaderTitle = "kitten legit (getting removed soon)"
             LoadedPressed = true
             Loader:Destroy()
             wait(2)
-            if isfile("kittennotif.me") then
-                if readfile("kittennotif.me") ~= "_disabled" then
+            if isfile("EXFTBnotif.me") then
+                if readfile("EXFTBnotif.me") ~= "_disabled" then
                     local StarterGui = game:GetService("StarterGui") -- not sure why you used CoreGui
                     local bindable = Instance.new("BindableFunction")
 
                     function bindable.OnInvoke(response)
                         if response == "Yes" then
-                            writefile("kittennotif.me", "_disabled")
+                            writefile("EXFTBnotif.me", "_disabled")
                             StarterGui:SetCore(
                                 "SendNotification",
                                 {
@@ -302,7 +302,7 @@ local LoaderTitle = "kitten legit (getting removed soon)"
 
                 function bindable.OnInvoke(response)
                     if response == "Yes" then
-                        writefile("kittennotif.me", "_disabled")
+                        writefile("EXFTBnotif.me", "_disabled")
                         StarterGui:SetCore(
                             "SendNotification",
                             {
@@ -353,8 +353,8 @@ local LoaderTitle = "kitten legit (getting removed soon)"
             gui(Start, {TextTransparency = 1})
             --gui(Title, {TextTransparency = 1})
             --gui(Exit, {ImageTransparency = 1})
-            if isfile("kittennotif.me") then
-                if readfile("kittennotif.me") ~= "_disabled" then
+            if isfile("EXFTBnotif.me") then
+                if readfile("EXFTBnotif.me") ~= "_disabled" then
                     TweenService:Create(
                         GameInfo,
                         TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.In),

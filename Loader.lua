@@ -1,4 +1,4 @@
-local LoaderTitle = "EXFTB legit (getting removed soon)"
+local LoaderTitle = "EXFTB legit"
 
     local TweenService = game:GetService("TweenService")
 
